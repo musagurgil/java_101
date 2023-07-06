@@ -1,0 +1,27 @@
+MukemmelSayi
+Bu program, kullanıcının girdiği bir sayının mükemmel sayı olup olmadığını kontrol eden basit bir Java programıdır.
+
+Mukemmel Sayı Nedir?
+Bir sayının mükemmel sayı olduğunu belirlemek için şu adımlar izlenir:
+1- Sayının pozitif tam bölenlerinin toplamı, sayıya eşit olmalıdır (bölenlerin kendisi hariç).
+2- Örneğin, 28 sayısı için, 1, 2, 4, 7 ve 14 sayıları pozitif tam bölenlerdir ve toplamları 28'e eşittir. Bu nedenle, 28 bir mükemmel sayıdır.
+
+Nasıl Çalışır?
+1- Program başlatıldığında, kullanıcıya konsol üzerinde bir sayı girmesi istenir.
+2- Kullanıcı bir sayı girer ve Enter tuşuna basar.
+3- Girilen sayı, pozitif bir sayı olup olmadığı kontrol edilir:
+  * Eğer girilen sayı 0'dan küçük veya eşitse, program "Geçersiz giriş! Lütfen pozitif bir sayı girin." uyarısını ekrana yazdırır ve işlem sona erer.
+  * Girilen sayı pozitif ise, mükemmel sayı olup olmadığı kontrol edilir:
+   - Bir döngü kullanılarak, sayının pozitif tam bölenleri bulunur ve toplamları hesaplanır.
+   - Eğer toplam, girilen sayıya eşitse, sayı mükemmel sayı olarak kabul edilir ve "Girdiğiniz sayı mükemmel bir sayıdır." mesajı ekrana yazdırılır. Aksi takdirde, sayı mükemmel sayı değildir ve "Girdiğiniz sayı mükemmel bir sayı değildir." mesajı ekrana yazdırılır.
+
+Kurulum
+1- Bu programı çalıştırmak için Java JDK (Java Development Kit) ve Java çalışma zamanı ortamının (JRE - Java Runtime Environment) yüklü olması gerekmektedir. Java'yı Oracle'ın resmi web sitesinden indirebilir ve kurabilirsiniz.
+2- Bir Java derleyicisi veya entegre geliştirme ortamı (IDE) kullanarak .java uzantılı kaynak kod dosyasını derleyin ve çalıştırın.
+  * Örnek komut satırı kullanımı: javac MukemmelSayi.java (derleme) ve java MukemmelSayi (çalıştırma)
+  * Örneğin, Eclipse veya IntelliJ IDEA gibi popüler bir Java IDE'sini kullanarak kaynak kodunu açabilir, derleyebilir ve çalıştırabilirsiniz.
+
+Kaynaklar
+Bu programın geliştirilmesinde herhangi bir dış kaynak kullanılmamıştır. Kod, basit matematiksel işlemler ve temel Java döngü yapısı kullanılarak oluşturulmuştur.
+
+Musa Gürgil 06.07.2023
