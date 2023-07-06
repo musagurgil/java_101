@@ -1,0 +1,26 @@
+ArkadasSayi
+Bu program, kullanıcının girdiği iki sayının arkadaş sayı olup olmadığını kontrol eden basit bir Java programıdır.
+
+Arkadaş Sayı Nedir?
+Arkadaş sayılar, iki sayının birbirinin pozitif tam bölenlerinin toplamına eşit olduğu sayılardır. Örneğin, 220 ve 284 sayıları arkadaş sayılardır, çünkü 220'nin pozitif tam bölenlerinin toplamı 284'e, 284'ün pozitif tam bölenlerinin toplamı ise 220'ye eşittir.
+
+Nasıl Çalışır?
+1- Program başlatıldığında, kullanıcıya konsol üzerinde iki sayı girmesi istenir.
+2- Kullanıcı iki sayıyı girer ve Enter tuşuna basar.
+3- Girilen sayılar, pozitif sayılar olup olmadığı kontrol edilir:
+  * Eğer girilen sayılardan herhangi biri veya her ikisi de 0'dan küçük veya eşitse, program "Geçersiz giriş! Lütfen pozitif sayılar girin." uyarısını ekrana yazdırır ve işlem sona erer.
+  * Girilen sayılar pozitif ise, arkadaş sayı olup olmadıkları kontrol edilir:
+   - İki adet toplam değişkeni oluşturulur: toplam1 ve toplam2.
+   - İlk sayı için bir döngü kullanılarak, sayının pozitif tam bölenleri bulunur ve toplamları hesaplanır.
+   - İkinci sayı için ayrı bir döngü kullanılarak, sayının pozitif tam bölenleri bulunur ve toplamları hesaplanır.
+   - Eğer her iki toplam birbirine eşitse, sayılar arkadaş sayı olarak kabul edilir ve "Girdiğiniz sayılar arkadaş sayılardır." mesajı ekrana yazdırılır. Aksi takdirde, sayılar arkadaş sayılar değildir ve "Girdiğiniz sayılar arkadaş sayılar değildir." mesajı ekrana yazdırılır.
+
+Kurulum
+1- Bu programı çalıştırmak için Java JDK (Java Development Kit) ve Java çalışma zamanı ortamının (JRE - Java Runtime Environment) yüklü olması gerekmektedir. Java'yı Oracle'ın resmi web sitesinden indirebilir ve kurabilirsiniz.
+2- Bir Java derleyicisi veya entegre geliştirme ortamı (IDE) kullanarak .java uzantılı kaynak kod dosyasını derleyin ve çalıştırın.
+  * Örnek komut satırı kullanımı: javac ArkadasSayi.java (derleme) ve java ArkadasSayi (çalıştırma)
+  * Örneğin, Eclipse veya IntelliJ IDEA gibi popüler bir Java IDE'sini kullanarak kaynak kodunu açabilir, derleyebilir ve çalıştırabilirsiniz.
+
+Kaynaklar
+Bu programın geliştirilmesinde herhangi bir dış kaynak kullanılmamıştır. Kod, basit matematiksel işlemler ve temel Java döngü yapısı kullanılarak oluşturulmuştur.
+
