@@ -14,11 +14,14 @@ Bu, `java_101` adında bir GitHub repositoriesidir. Bu repository, Java programl
 
 `workshops` klasörü, minik Java projelerinin saklandığı bir klasördür. Bu klasöre yaptığınız minik projeleri, uygulamaları veya örnek çalışmaları ekleyebilirsiniz. Bu projeler, Java programlama becerilerinizi geliştirmek ve farklı konseptleri uygulamak için mükemmel bir fırsat sağlar.
 
-## Katkıda Bulunma
+## Nasıl Katkıda Bulunulur?
 
-Bu repository'e katkıda bulunmak isterseniz, lütfen CONTRIBUTING dosyasını okuyun ve katkıda bulunma kurallarını takip edin.
-
-## Lisans
-
-Bu projenin lisans bilgilerini öğrenmek için LICENSE dosyasını kontrol edin.
+1. Eğer bu repository'e katkıda bulunmak isterseniz, aşağıdaki adımları takip edebilirsiniz:
+2. Bu repository'i fork (çatallama) edin.
+3. Kendi bilgisayarınıza fork ettiğiniz repository'i klonlayın.
+4. `ogrenimDosyam` klasörüne öğrendiğiniz bilgilerle ilgili dosyaları ekleyin veya güncelleyin.
+5. `workshops` klasörüne kendi minik projelerinizi ekleyin veya mevcut projelere katkıda bulunun.
+6. Yaptığınız değişiklikleri commit (kaydet) edin ve fork ettiğiniz repository'e push (yükle) yapın.
+7. GitHub üzerinde fork ettiğiniz repository'de bir pull request (çekme isteği) oluşturun.
+8. Değişiklikleriniz gözden geçirilecek ve merge (birleştirme) işlemi yapılacaktır.
 
