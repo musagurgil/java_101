@@ -4,7 +4,7 @@ Bu program, Türkiye'deki illeri ve bölgeleri içeren bir çok boyutlu dizi (mu
 Nasıl Çalışır?
 1- Program başlatıldığında, Türkiye'deki bölgeleri ve bu bölgelere ait illeri içeren bir çok boyutlu dizi (turkeyRegions) oluşturulur.
 2- turkeyRegions dizisi, her bir iç diziyle temsil edilen bölgeleri ve bu bölgelere ait illeri içerir.
-3-Dış döngü kullanılarak her bir bölge için iterasyon yapılır.
+3- Dış döngü kullanılarak her bir bölge için iterasyon yapılır.
 4- Her bir bölge adı (region) ekrana yazdırılır.
 5- İç döngü kullanılarak her bir il için iterasyon yapılır.
 6- Her bir il adı (city) ilgili bölge ile birlikte ekrana yazdırılır.
