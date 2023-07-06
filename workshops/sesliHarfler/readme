@@ -1,0 +1,21 @@
+SesliHarf
+Bu program, kullanıcının girdiği bir harfin sesli bir harf olup olmadığını kontrol eden ve kalın mı yoksa ince mi olduğunu belirleyen basit bir Java programıdır.
+
+Nasıl Çalışır?
+1- Program başlatıldığında, kullanıcıya konsol üzerinde bir harf girmesi istenir.
+2- Kullanıcı bir harf girer ve Enter tuşuna basar.
+3- Girilen harf, sesli bir harf mi diye kontrol edilir:
+  * Eğer girilen giriş birden fazla karakter içeriyorsa veya geçerli bir harf değilse, program "Geçersiz giriş! Lütfen sadece bir harf girin." uyarısını ekrana yazdırır ve işlem sona erer.
+  * Eğer girilen harf sesli bir harfse, harfin kalın mı yoksa ince mi olduğunu kontrol eder ve sonucunu ekrana yazdırır:
+   - Kalın sesli harfler: "a", "ı", "o", "u"
+   - İnce sesli harfler: "e", "i", "ö", "ü"
+  * Eğer girilen harf bir sesli harf değilse, program "Girdiğiniz harf bir sesli harf değildir." uyarısını ekrana yazdırır.
+
+Kurulum
+1- Bu programı çalıştırmak için Java JDK (Java Development Kit) ve Java çalışma zamanı ortamının (JRE - Java Runtime Environment) yüklü olması gerekmektedir. Java'yı Oracle'ın resmi web sitesinden indirebilir ve kurabilirsiniz.
+2- Bir Java derleyicisi veya entegre geliştirme ortamı (IDE) kullanarak .java uzantılı kaynak kod dosyasını derleyin ve çalıştırın.
+  * Örnek komut satırı kullanımı: javac SesliHarf.java (derleme) ve java SesliHarf (çalıştırma)
+  * Örneğin, Eclipse veya IntelliJ IDEA gibi popüler bir Java IDE'sini kullanarak kaynak kodunu açabilir, derleyebilir ve çalıştırabilirsiniz.
+
+Kaynaklar
+Bu programın geliştirilmesinde herhangi bir dış kaynak kullanılmamıştır. Kod, basit karşılaştırmalar ve Java switch-case yapısı kullanılarak oluşturulmuştur.
