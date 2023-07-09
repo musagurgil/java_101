@@ -1,0 +1,23 @@
+Hesap Makinesi
+Bu Java programı, kullanıcının girdiği iki sayı üzerinde toplama, çıkarma, çarpma ve bölme işlemlerini gerçekleştiren basit bir hesap makinesi simüle etmektedir. İşlemler ayrı bir Islemler sınıfında tanımlanmıştır.
+
+Nasıl Çalışır?
+1- Program başlatıldığında, kullanıcıya konsol üzerinde birinci sayıyı girmesi istenir.
+2- Birinci sayı girilir ve Enter tuşuna basılır.
+3- Ardından, kullanıcıya konsol üzerinde ikinci sayıyı girmesi istenir.
+4- İkinci sayı girilir ve Enter tuşuna basılır.
+5- Program, girilen sayılar üzerinde toplama, çıkarma, çarpma ve bölme işlemlerini gerçekleştirir ve sonuçları ekrana yazdırır.
+
+Sıfıra Bölme Durumu
+Eğer kullanıcı ikinci sayı olarak 0 değerini girerse, program "Hata: Sıfıra bölme hatası!" mesajını ekrana yazdırır ve bölme işlemi sonucu olarak 0 değerini döndürür.
+
+Kurulum
+1- Bu programı çalıştırmak için Java JDK (Java Development Kit) ve Java çalışma zamanı ortamının (JRE - Java Runtime Environment) yüklü olması gerekmektedir. Java'yı Oracle'ın resmi web sitesinden indirebilir ve kurabilirsiniz.
+2- Bir Java derleyicisi veya entegre geliştirme ortamı (IDE) kullanarak .java uzantılı kaynak kod dosyasını derleyin ve çalıştırın.
+  * Örnek komut satırı kullanımı: javac HesapMakinesi.java (derleme) ve java HesapMakinesi (çalıştırma)
+  * Örneğin, Eclipse veya IntelliJ IDEA gibi popüler bir Java IDE'sini kullanarak kaynak kodunu açabilir, derleyebilir ve çalıştırabilirsiniz.
+
+Kaynaklar
+Bu programın geliştirilmesinde herhangi bir dış kaynak kullanılmamıştır. Kod, basit matematiksel işlemler ve temel Java sınıf yapısı kullanılarak oluşturulmuştur.
+
+Musa Gürgil 10.07.2023
