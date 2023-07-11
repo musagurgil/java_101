@@ -1,0 +1,52 @@
+# Kredi Hesaplama
+Bu Java programı, farklı kredi türlerini temsil eden sınıflar kullanarak kredi bilgilerini hesaplar ve yazdırır. Program, farklı kredi türleri için aylık taksit hesaplamalarını gerçekleştirir ve kredi bilgilerini ekrana yazdırır.
+
+## Nasıl Çalışır?
+1. Program başlatıldığında, örnek kredi türleriyle birlikte bir `KrediHesaplama` nesnesi oluşturulur.
+2. Nesneler, kredi türüne göre ilgili sınıflardan türetilir ve kredi bilgileriyle birlikte oluşturulur.
+3. Kredi bilgileri, `Kredi` sınıfı tarafından tanımlanan metodlar kullanılarak hesaplanır.
+4. Hesaplanan kredi bilgileri, ilgili kredi türüne özgü detaylarla birlikte ekrana yazdırılır.
+
+## Örnek Çıktı
+```
+Kredi Türü: Konut Kredisi
+Faiz Oranı: %10.0
+Kredi Miktarı: 150000.0 TL
+Aylık Taksit: 1250.0 TL
+Vade: 120 ay
+----------------------
+Kredi Türü: Taşıt Kredisi
+Faiz Oranı: %15.0
+Kredi Miktarı: 50000.0 TL
+Aylık Taksit: 625.0 TL
+Araç Markası: Volvo
+----------------------
+Kredi Türü: İhtiyaç Kredisi
+Faiz Oranı: %12.0
+Kredi Miktarı: 10000.0 TL
+Aylık Taksit: 100.0 TL
+Kullanım Alanı: Tatil
+----------------------
+Kredi Türü: Eğitim Kredisi
+Faiz Oranı: %8.0
+Kredi Miktarı: 25000.0 TL
+Aylık Taksit: 208.33333333333334 TL
+Öğrenci Adı: Musa Gurgil
+----------------------
+Kredi Türü: İşletme Kredisi
+Faiz Oranı: %18.0
+Kredi Miktarı: 100000.0 TL
+Aylık Taksit: 1500.0 TL
+Şirket Adı: GRG Project
+```
+
+## Kurulum
+1. Bu programı çalıştırmak için Java JDK (Java Development Kit) ve Java çalışma zamanı ortamının (JRE - Java Runtime Environment) yüklü olması gerekmektedir. Java'yı [Oracle'ın resmi web sitesinden](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) indirebilir ve kurabilirsiniz.
+2. Bir Java derleyicisi veya entegre geliştirme ortamı (IDE) kullanarak `.java` uzantılı kaynak kod dosyasını derleyin ve çalıştırın.
+   - Örnek komut satırı kullanımı: `javac KrediHesaplama.java` (derleme) ve `java KrediHesaplama` (çalıştırma)
+   - Örneğin, Eclipse veya IntelliJ IDEA gibi popüler bir Java IDE'sini kullanarak kaynak kodunu açabilir, derleyebilir ve çalıştırabilirsiniz.
+
+## Kaynaklar
+Bu programın geliştirilmesinde herhangi bir dış kaynak kullanılmamıştır. Kod, temel Java sınıf yapısı, kalıtım ve polymorphism prensipleri kullanılarak oluşturulmuştur.
+
+Musa Gürgil 11.07.2023
