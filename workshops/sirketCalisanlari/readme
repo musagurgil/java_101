@@ -1,0 +1,35 @@
+## Şirket Çalışanları
+Bu Java programı, farklı çalışan türlerini temsil eden sınıfları ve bu çalışanlarla ilgili yetenekleri tanımlayan arayüzleri içerir. Program, bir çalışanın çalışma, ödeme alma, yemek yeme ve yönetim görevlerini yerine getirme yeteneklerini simüle eder.
+
+## Nasıl Çalışır?
+1. Program başlatıldığında, farklı çalışan türleriyle ilgili örnek nesneler oluşturulur.
+2. Oluşturulan nesneler, ilgili arayüzlerden gelen metotları uygular ve çalışanın yeteneklerini gerçekleştirir.
+3. Çalışanların çalışma, ödeme alma, yemek yeme ve yönetim görevlerini yerine getirme yetenekleri ekrana yazdırılır.
+
+## Örnek Çıktı
+```
+Worker çalışıyor...
+Worker ödemesini alıyor...
+Worker yemek yiyor...
+Worker yönetim görevlerini yerine getiriyor...
+----------------------
+OutsourceWorker çalışıyor...
+OutsourceWorker ödemesini alıyor...
+----------------------
+Chef çalışıyor...
+Chef yemek yiyor...
+----------------------
+Manager çalışıyor...
+Manager yönetim görevlerini yerine getiriyor...
+```
+
+## Kurulum
+1. Bu programı çalıştırmak için Java JDK (Java Development Kit) ve Java çalışma zamanı ortamının (JRE - Java Runtime Environment) yüklü olması gerekmektedir. Java'yı [Oracle'ın resmi web sitesinden](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) indirebilir ve kurabilirsiniz.
+2. Bir Java derleyicisi veya entegre geliştirme ortamı (IDE) kullanarak `.java` uzantılı kaynak kod dosyasını derleyin ve çalıştırın.
+   - Örnek komut satırı kullanımı: `javac Main.java` (derleme) ve `java Main` (çalıştırma)
+   - Örneğin, Eclipse veya IntelliJ IDEA gibi popüler bir Java IDE'sini kullanarak kaynak kodunu açabilir, derleyebilir ve çalıştırabilirsiniz.
+
+## Kaynaklar
+Bu programın geliştirilmesinde herhangi bir dış kaynak kullanılmamıştır. Kod, basit Java arayüzleri ve sınıf yapısı kullanılarak oluşturulmuştur.
+
+Musa Gürgil 13.07.2023
